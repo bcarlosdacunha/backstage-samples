@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sonarcloud-sample
+  description: sonarcloud sample plugin
+  annotations:
+    sonarqube.org/project-key: [bcarlosdacunha_nextgram]
+  tags:
+    - plugins
+  links:
+    - url: https://sonarcloud.io/project/overview?id=bcarlosdacunha_nextgram
+      title: sonarcloud project
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: next-app
+  lifecycle: production
+  owner: bruno
