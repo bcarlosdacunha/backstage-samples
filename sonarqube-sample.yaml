@@ -4,7 +4,7 @@ metadata:
   name: sonarcloud-sample
   description: sonarcloud sample plugin
   annotations:
-    sonarqube.org/project-key: bcarlosdacunha/bcarlosdacunha_nextgram
+    sonarqube.org/project-key: default/bcarlosdacunha_nextgram
   tags:
     - plugins
   links:
